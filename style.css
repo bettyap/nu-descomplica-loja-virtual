@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: FFFFFF
+}
+
+.content-nav {
+  background: #EDEDED;
+}
+
+.container {
+  max-width: 87.5rem;
+  margin: 0 auto!important;
+  padding-bottom: 2rem;
+}
+
+.product-text {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.content-about {
+  display: flex;
+  justify-content: center
+}
+
+.about-text{
+  flex: 1;
+}
+
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.img-equipe {
+  border-radius: 50%;
+  width: 250px;
+}
+
+.product-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem 0;
+  margin-bottom: 4rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.social-network-icon {
+  display: flex;
+  justify-content: center;
+  gap: 0.10rem;
+}
+
+.social-network-icon a{
+  font-size: 24px;
+  color: black;
+  padding: 4px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background: #BACAD7;
+  padding: 2rem 1rem 0.25rem;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 7rem;
+}
+
+.footer-text-copyright {
+  display: flex;
+  justify-content: center;
+}
